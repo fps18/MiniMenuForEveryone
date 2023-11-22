@@ -355,22 +355,6 @@ namespace CTRPluginFramework
             }
         }
 
-        //Debug
-        /*
-        screen.Draw(Utils::Format("entryAmount = %d", entryAmount), 0, 0);
-        screen.Draw(Utils::Format("arrow = %d", arrow), 0, 10);
-        screen.Draw(Utils::Format("scroll = %d", scroll), 100, 0);
-        if (MiniMenuOverview::Cheating)
-            screen.Draw("true", 0, 0);
-        else
-            screen.Draw("false", 0, 0);
-        */
-        /*
-        int testwwwwwwwwww = OSD::GetTextWidth(true, "くけこさしすせそたちつてとなにぬねの");
-        screen.Draw(Utils::Format("%d", testwwwwwwwwww), 0, 0);
-        //DrawSysfont_newLinePlus(screen, "あ\nい\nう\nえ\nお", 0, 0, Color::Black);
-        */
-
         ////////////
         return true;
     }
