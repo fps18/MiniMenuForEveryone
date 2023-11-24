@@ -16,5 +16,6 @@ Implementation method / 実装方法
 
 Implementation example / 実装例 (In cheat.cpp... / cheat.cppにて)
 void MiniMenu() {
-  Implementation_MiniMenu("名前", エントリータイプ, メジャーバージョン, マイナーバージョン, リビジョンアップ, ボタン);
+  Implementation_MiniMenu("名前", エントリータイプ, メジャーバージョン, マイナーバージョン, リビジョンアップ, ボタン, boolで軽量化にするか);
+    new_entry("名前", エントリータイプ(0,1,2), u32のアドレス, u32の値, "ノート");
 }
